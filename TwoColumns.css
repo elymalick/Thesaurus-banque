@@ -1,0 +1,181 @@
+body
+{
+	background-color : #FFFFFF;
+	font-family : Verdana;
+	color:#333333;
+	margin : 20px 0px;
+	/*direction : rtl;*/
+}
+
+div.Interface
+{
+	background-color:#FFFFFF;
+	border : 1px solid #FFCC29;
+	margin : 0px auto;
+	width : 90%;
+}
+
+div.Header
+{
+	background-image : url(ibibliotheque.gif);
+	background-repeat : no-repeat;
+	background-position : right bottom;
+	background-position : left bottom;
+	border-bottom : 1px solid #FFCC29;
+	/*color : #FFCC29;*/
+	color:#000000;
+	text-align : center;
+}
+
+div.Header h1
+{
+	margin : 20px 0px 10px 0px;
+}
+
+div.Header h2
+{
+	margin : 0px 0px 20px 0px;
+	text-decoration : underline;
+}
+
+div.Menu
+{
+	float : left;
+	width : 250px;
+	padding-bottom : 10px;
+	font-size: 10px;
+	text-align:left;
+}
+
+#navigation td {
+	border-bottom: 1px solid #F4FFE4;
+}
+	
+#navigation a {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #D5EDB3;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 10px 20px;
+	}
+	
+#navigation a:hover {
+	background: #0CF;
+	color:#993300;
+}
+div.Content
+{
+	/*border-left : 1px solid #FFCC29;*/
+	/*margin-left : 160px;*/
+	padding : 10px;
+	height : 400px;
+    text-align : left;
+	font-size: 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.Footer
+{
+	clear : both;
+	background-image : url(ibibliotheque.gif);
+	background-repeat : no-repeat;
+	background-position : right 10px;
+	border-top : 1px solid #FFCC29;
+	height : 90px;
+}
+.menu
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+background-color:#333333;
+font-size:14px;
+}
+div.Menu a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+	color:#000000;
+}
+div.Menu a:hover{
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color:#006633;
+	background-color:#FF0000;
+}
+
+div.Content label
+{
+	display : block;
+	/*float : left;*/
+	padding-right : 10px;
+	/*text-align : right;*/
+	/*width : 200px;*/
+}
+
+div.Content input.Text
+{
+	width : 300px;
+}
+
+div.Content textarea
+{
+	height : 80px;
+	width : 300px;
+}
+
+div.Content input.Button
+{
+	margin-left : 210px;
+}
+
+.titre
+{
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #000000;
+}
+.form_texte {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.form_entete {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+}
+
+.form_champ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	border: 1px solid #000000;
+}
+
+.form_bouton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	border: 1px solid #000000;
+}
+
+.texte
+{
+   	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000; 
+}
